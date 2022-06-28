@@ -1,8 +1,7 @@
 package main
 
 import (
-	log "github.com/sirupsen/logrus"
-
+	"github.com/dundee/gogenerate/pkg/log"
 	pb "github.com/dundee/gogenerate/protobuf"
 )
 
@@ -13,5 +12,5 @@ func main() {
 		Name: "John Doe",
 	}
 
-	log.WithFields(log.Fields{"user.id": user.Id, "user.name": user.Name}).Info("Received user")
+	log.Info("Received user", user)
 }
