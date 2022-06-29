@@ -7,5 +7,6 @@ func (u *User) MarshalLog() log.Fields {
 	return log.Fields{
 		"user.id":   u.Id,
 		"user.name":   u.Name,
+		"user.phone":   u.Phone,
 	}
 }
