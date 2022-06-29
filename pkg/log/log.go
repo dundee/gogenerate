@@ -4,6 +4,10 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
+func init() {
+	logrus.SetFormatter(&logrus.JSONFormatter{})
+}
+
 type Fields map[string]interface{}
 
 type LogMarshaler interface {
