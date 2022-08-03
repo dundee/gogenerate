@@ -1,7 +1,7 @@
 
 # go:generate
 
-Source code for the talk "go:generate" given on Prague Golang Meetup on 28th June 2022.
+Source code for the [talk "go:generate"](https://www.youtube.com/watch?v=ClW_g1iDGi4) given on Prague Golang Meetup on 28th June 2022.
 
 The talk demonstrared how to use protobuf's custom options for declaring how the message should be marshalled for logging.
 We looked on possibilities how to process the proto message metadata and how to generate the code responsible for doing the marshalling.
